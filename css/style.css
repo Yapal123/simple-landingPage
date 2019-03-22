@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,400i,500,500i,300');
+
+
+body, html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Exo', sans-serif;
+
+}
+.firstBlock{
+	width: 100%;
+	height: 700px;
+	background: url(../img/mainBg.png);
+	position: relative;
+	background-size: cover ;
+
+}
+
+.heading{
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	font-family: 'Exo', sans-serif, thin;
+	font-weight: 100;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	margin-top: -90px;
+
+}
+
+.heading p{
+	font-weight: 100;
+	font-size: 60px;
+	padding: 0;
+	margin: 0;
+}
+
+.mainButton{
+	cursor: pointer;
+	margin-top: 2%;
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	width: 150px;
+	height: 40px;
+	background-color: #ff6d6d;
+	border: none;
+	color: white;
+	font-size: 25px;
+}
+
+.mainButton:hover{
+	background-color: red;
+}
+
+#underB{
+	font-size: 18px;
+	color: black;
+	margin-top: 2%;
+}
+
+.content{
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+.secondBlock{
+	background-color: #f6f5f3;
+	float: left;
+	width: 100%;
+	height: 600px;
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+}
+
+.leftPart{
+	margin-top: 5%;
+	width: 55%;
+	height: 100%;
+	position: relative;
+	display: inline-block;	
+}
+
+.rightPart{
+	display: inline-block;	
+	margin-top: 5%;
+	width: 40%;
+	height: 100%;
+	background:url(../img/2nd.png) no-repeat center center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+
+.rightTriangle {
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	width: 0; 
+	height: 0;
+	border-bottom: 400px solid #ff6d6d;
+	border-left: 480px solid transparent;
+	opacity: 0.6;
+}
+
+.textPlace{
+	width: 90%;
+	height:auto;
+	position: absolute;
+	left:5%;
+}
+
+.new{
+	color: #ff6d6d;
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+}
+
+.thirdBlock{
+	float: left;
+	margin-top: 7%;
+	width: 100%;
+	height: 700px;
+	background:url(../img/BG.png) no-repeat;
+	background-size: 100% 700px;
+	position: relative;
+}
+
+.thirdHeading{
+	width: 300px;
+	position: absolute;
+	text-align: center;
+	top: 20%;
+	left: 50%;
+	margin-left: -150px;
+}
+
+.featuresPlace{
+	position: absolute;
+	bottom: 20%;
+	max-width: 100%;
+	height: auto;
+}
+
+.feature{
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	margin-left: 2%;
+}
+
+p{
+	padding: 0;
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	
+}
+
+.fourthBlock{
+	float: left;
+	width: 100%;
+	height: 600px;
+	background-color: #f6f5f3;
+	position: relative;
+	overflow: hidden;
+}
+
+.fourthTriangle{
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	width: 0; 
+	height: 0;
+	border-bottom: 800px solid #ff6d6d;
+	border-right: 600px solid transparent;
+	opacity: 0.6;	
+}
+
+.notePic{
+	background: url(../img/macbook.png) no-repeat;
+	background-size: contain;
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: 20%;
+	left: 1%;
+}
+
+.fourthTxtPlace{
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	right: 3%;
+	top: 25%;
+}
+
+.fifthBlock{
+	float: left;
+	width: 100%;
+	height: 600px;
+	background:url(../img/Group-4.png);
+	background-size: cover;
+}
+
+
+.fifthInfoPlace{
+	position: relative;
+	max-width: 1100px;
+	height: 100%;
+	color: white;
+	margin: 0 auto;
+}
+
+.personalPlace{
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 20%;
+
+}
+
+.personal{
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	margin-left: 2%;
+}
+
+.personal p{
+	color: #96979a;
+	font-style: italic;
+}
+
+.personal img{
+	border-radius: 50px;
+}
+
+.sixthBlock{
+	margin-top: 15%;
+	float: left;
+	width: 100%;
+	height: 600px;
+	text-align: center;
+}
+
+.sixthBlock p{
+	margin: 0 auto;
+	width: 50%;
+	margin-top: 3%;
+	margin-bottom: 10%;
+}
+
+.browser{
+	padding: 0;
+	margin: 0 auto;
+	max-width: 870px;
+	height: 375px;
+	background:url(../img/1.png) no-repeat;
+	background-size: contain;
+
+}
+
+.seventhBlock{
+	float: left;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	background-color: #323969;
+}
+
+.seventhBlock h1{
+	text-align: center;
+	color: white;
+}
+.seventhBlock h3{
+	margin-top: 8%;
+	text-align: center;
+	color: #ff6d6d;
+}
+
+.formPlace{	
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	
+}
+
+
+input{
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	margin-top: 7%;
+	width: 250px;
+	height: 40px;
+	background-color: #464c77;
+	font-size: 25px;
+	color: white;
+	border:1px solid white;
+	margin-left: 1%;
+}
+input::placeholder{
+	padding-left: 20px;
+	color: white;
+}
+
+input[type=submit]{
+	background-color: #ff6d6d;
+	cursor: pointer;
+	border: none;
+	height: 50px;
+}
+
+
+
+.seventhBlock span,a{
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	color: #96979a;
+}
+
+.eighthBlock{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 400px;
+}
+
+.eighthTriangle{
+	position: absolute;
+	right: 0%;
+	width: 0; 
+	height: 0;
+	border-top: 300px solid #ff6d6d;
+	border-left: 300px solid transparent;
+}
+
+.footerPlace{
+	max-width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.footerUl{
+	width: 33%;
+	height: auto;
+	display: inline-block;
+}
+
+.footerUl li{
+	padding: 0;
+	font-family: 'Exo', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #96979a;
+	list-style-type: none;
+}
+
+
+.footerUl input{
+	
+	background-color: white;
+	border: 1px solid black;
+	width: 200px;
+	color: #96979a;
+	
+
+}
+.footerUl input::placeholder{
+ 	color: #96979a;
+}
+.footerUl input[type=submit]{
+	width: 50px;
+	height: 44px;
+	background-color: #ff6d6d;
+	color: white;
+	font-size: 20px;
+
+	
+}
+.footerUl input[type=submit]:hover{
+	width: 50px;
+	height: 44px;
+	background-color: red;
+	
+}
+
+.fix{
+	margin: 0 auto;
+	max-width: 1100px;
+
+}
+
+@media screen and (max-width:760px){
+
+	.thirdBlock{
+		background:white;
+		background-size: 100% 100%;
+		height: 900px;
+
+	}
+
+	.thirdHeading{
+		width: 100%;
+		position: static;
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.featuresPlace{
+		position: static;
+
+	}
+
+	.feature{
+		width: 100%;
+	}
+
+
+	.heading{
+		margin-top: -150px;
+	}
+	.leftPart{
+		width: 100%;
+	}
+
+	.rightPart{
+		display: none;
+	}
+}
+.wow {
+   visibility:hidden; 
+}
+@media screen and (max-width: 1000px){
+	.fourthTxtPlace{
+		position: absolute;
+		width: 60%;
+		height: 500px;
+		left: 50%;
+		margin-left: -30%;
+		top: 50%;
+		margin-top: -250px;
+	}
+	.footerUl{
+		width: auto;
+		
+	}
+	.eighthTriangle{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 620px){
+	.fifthBlock{
+	float: left;
+	width: 100%;
+	height: 1000px;
+	background:url(../img/Group-4.png);
+	background-size: cover;
+}
+
+
+.fifthInfoPlace{
+	position: relative;
+	max-width: 1100px;
+	height: 100%;
+	color: white;
+	margin: 0 auto;
+}
+
+.personalPlace{
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 0%;
+
+}
+	.personal{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	margin-left: 0%;
+}
+}
